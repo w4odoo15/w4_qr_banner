@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "QR Banner for Swiss Invoice",
+    'name': "Banner ad on Swiss QR-invoices",
 
     'summary': """
        Lets businesses place customised ads on Swiss QR-invoices""",
