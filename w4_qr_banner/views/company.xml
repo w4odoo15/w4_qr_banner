@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="qr_banner_company_image_form" model="ir.ui.view">
+        <field name="name">ad.banner.form</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+             <xpath expr="//notebook" position="inside">
+                <page string="Bild auf EZ QR">
+                    <group>
+                        <field name="banner" widget="image" options="{'accepted_file_extensions': 'image/*'}"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
