@@ -3,7 +3,7 @@
      <template id="w4_qr_banner_image" inherit_id="l10n_ch.l10n_ch_swissqr_template">
         <xpath expr="//div[hasclass('swissqr_content_v2')]" position="before">
              <div style="text-align:center;padding-top:25% !important" t-if="company.banner">
-                    <img t-if="company.logo" t-att-src="image_data_uri(company.banner)" style="max-height:500px;max-width:900px" alt="Banner"/>
+                    <img t-if="company.banner" t-att-src="image_data_uri(company.banner)" style="max-height:500px;max-width:900px" alt="Banner"/>
             </div>
         </xpath>
      </template>
